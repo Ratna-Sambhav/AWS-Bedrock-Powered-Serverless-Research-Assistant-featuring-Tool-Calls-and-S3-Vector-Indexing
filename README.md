@@ -1,0 +1,2 @@
+# AWS-Bedrock-Powered-Serverless-Research-Assistant-featuring-Tool-Calls-and-S3-Vector-Indexing
+A fully serverless AWS Bedrock–powered research discovery and question-answering platform that uses S3-backed vector embeddings, tool calling through Lambda, and Cognito authentication. It retrieves scientific papers, indexes them as a knowledge base, and enables an interactive research assistant accessible from a React frontend.
