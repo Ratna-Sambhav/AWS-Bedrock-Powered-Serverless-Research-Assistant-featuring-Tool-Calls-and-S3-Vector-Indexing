@@ -54,26 +54,3 @@ This project is an end-to-end, serverless research discovery system built on AWS
 6. The user receives grounded, paper-backed answers.
 
 ---
-
-## Getting Started
-
-### Prerequisites
-- AWS account with access to Bedrock.
-- Node.js (for Lambda dev).
-- React (for frontend modifications).
-- IAM permissions for S3, Bedrock, Lambda, Cognito, and CloudFormation if deploying via IaC.
-
-### Setup Steps (High-Level)
-1. Upload research papers and metadata to S3.
-2. Create a Bedrock Knowledge Base and connect it to the S3 source.
-3. Create a vector index bucket and configure embedding dimensions.
-4. Deploy Lambda functions:
-   - Bedrock chat orchestrator with tool-calling handlers.
-   - PDF extraction utility.
-5. Configure Cognito User Pool + Identity Pool.
-6. Update React environment variables with Cognito + API Gateway details.
-7. Start the React application and authenticate to begin querying.
-
----
-
-## Folder Structure (Suggested)
