@@ -4,6 +4,13 @@ This project is an end-to-end, serverless research discovery system built on AWS
 
 ---
 
+## Demo
+
+Try the live demo here:  
+**https://amplify.ratna-sambhav.online/**
+
+---
+
 ## Features
 
 ### Research Data Pipeline
@@ -39,11 +46,11 @@ This project is an end-to-end, serverless research discovery system built on AWS
 ## Architecture Overview
 
 **Core Components**
-- **Amazon S3**: Document storage, metadata storage, vector store.
-- **Amazon Bedrock**: Foundation model inference, embeddings, knowledge base.
-- **AWS Lambda (Node.js)**: Tool-calling orchestration, KB query, PDF text extraction.
-- **Amazon Cognito**: Authentication and identity management.
-- **React**: Client-side application enabling user interaction.
+- Amazon S3: Document storage, metadata storage, vector store.
+- Amazon Bedrock: Foundation model inference, embeddings, knowledge base.
+- AWS Lambda (Node.js): Tool-calling orchestration, KB query, PDF extraction.
+- Amazon Cognito: Authentication and identity management.
+- React: Client-side application enabling user interaction.
 
 **Flow Summary**
 1. Papers and metadata are placed in S3.
